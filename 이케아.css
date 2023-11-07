@@ -1,0 +1,192 @@
+body{
+    text-align: center;
+    margin-top: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ul.rightfont li:hover {
+    font-size: 1.2em; /* 원하는 크기로 조정하세요. */
+}
+i:hover{
+    background-color: rgb(160, 159, 159);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    height: 80px;
+}
+.headermenu{
+    height: 40px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+.ulmain{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ulmenu{
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 13px;
+}
+.ulmenu li {
+    margin: 0 10px;
+}
+.menufont{
+    font-size: 10px;
+    font-weight: bold;
+}
+.search-input-area{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.search-input-area > input[type=text]{
+    width: 700px;
+    height: 40px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.search-btn-area{
+    display: flex;
+    align-items: center;
+}
+.search-btn-area > button{
+    width: 80px;
+    height: 42px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#search-input-area{
+    display: flex;
+}
+.nav{
+    display: flex;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    height: 50px;
+}
+.rightfont{
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    font-size: 13px;
+}
+.rightfont li {
+    margin-right: 10px; /* 각 아이템 사이에 오른쪽 마진을 추가하여 간격 조절 */
+  }
+
+
+.headerleft{
+    margin-left: 800px;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.main{
+    margin: 39px;
+}
+.font{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 49px;
+}
+.mainfont{
+    font-weight: bold;
+    font-size: 25px;   
+}
+.mainfontsmall{
+    color: gray;
+}
+.mainimg{
+    display: flex;
+    justify-content: space-around;
+}
+#ikea{
+    width: 600px;
+    height: 600px;
+}
+#ikea2{
+    width: 600px;
+    height: 600px;
+}
+.color , .final{
+    margin-top: 60px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+.colorfont , .finalfont{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 49px;
+}
+.foot{
+    /* width: 1500px; */
+    height: 350px;
+    padding-right: 40px;
+    background-color: rgb(245, 245, 245);
+}
+.footfont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 50px 0;
+}
+.footfont ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 13px;
+  }
+  
+  .footfont li {
+    margin: 5px 0; /* Adjust the margin as needed */   
+    margin-bottom: 10px;
+  }
+  .footfont li:hover {
+    font-size: 1.2em; /* Adjust the desired font size when hovering */
+  }
+
+.foottitle{
+    font-weight: bold;
+}
+#ikea4{
+    width: 1300px;
+}
+#ikea3{
+    width: 1320px;
+}
+#ffont{
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
